@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { classToClass } from 'class-transformer';
 
 import AuthenticateUserService from '../../../services/AuthenticateEmployerService';
+import { format } from 'date-fns';
 
 export default class SessionsController {
   public async create(req: Request, res: Response): Promise<Response> {
@@ -13,8 +14,13 @@ export default class SessionsController {
       employer_code,
       password,
     });
+    const formattedDate = format(
+      new Date(employer.register_date),
+      'dd/MM/yyyy',
+    );
+    const employerResponse = { ...employer, register_date: formattedDate };
 
     // A senha do usuário é oculta por padrões de segurança
-    return res.json({ employer: classToClass(employer), token });
+    return res.json({ employer: classToClass(employerResponse), token });
   }
 }
