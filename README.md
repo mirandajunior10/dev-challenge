@@ -208,7 +208,7 @@ O código do empregador obtido anteriormente será passado na url junto com a re
     "hand": true
   },
   "thumbnailHd": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
-  "birthday": "17/08/2020"
+  "birthday": "29/05/1970"
 }
 ```
 
@@ -255,7 +255,7 @@ Este método receberá o código do empregador e respectiva senha...
     "employer_name": "S.H.I.E.L.D",
     "member_count": 1,
     "thumbnail": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
-    "register_date": "2020-08-17T19:45:23.767Z"
+    "register_date": "17/08/2020"
   },
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTc2OTQ3MzYsImV4cCI6MTU5Nzc4MTEzNiwic3ViIjoiOWZlNTJlZGYtYjM2Yy00YzRiLThlMGItZDAwMzEzZTNlYWU3In0.vS9IIb-HpPwj_fUNLmxCzP46gJ3g7Tj4EwFT-cv_swA"
 }
