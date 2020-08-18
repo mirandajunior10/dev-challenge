@@ -10,20 +10,20 @@ O candidato deve dar **fork** neste repositório e após o termino do desenvolvi
 
 ### Extra
 
-[x] Utilizar Docker
+- [x] Utilizar Docker
 
 - Bancos de dados PostgreSQL e Redis criados e utilizados em container com docker.
 
-[x] Autenticação nas requisições
+- [x] Autenticação nas requisições
 
 - JWT Bearer Token
 - Senhas criptografadas.
 
-[x] Utilizar cache
+- [x] Utilizar cache
 
 - Cache implementado com Redis.
 
-[x] Miscelânia
+- [x] Miscelânia
 
 - Estrutura do projeto em DDD, em conformidade com algumas práticas SOLID.
 - TypeORM utilizado como conexão com o banco de dados principal (PostgreSQL).
@@ -273,9 +273,9 @@ Este método receberá os parâmetros de data de início, data de fim, duração
 
 **_Validações_**
 
-[X] Data inicial não pode ser posterior à data atual
-[X] Data final não pode ser anterior à data atual
-[X] Campo time não pode ser superior à 8 horas (480 minutos)
+- [X] Data inicial não pode ser posterior à data atual
+- [X] Data final não pode ser anterior à data atual
+- [X] Campo time não pode ser superior à 8 horas (480 minutos)
 
 ```json
 {
