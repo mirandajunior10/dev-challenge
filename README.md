@@ -41,7 +41,7 @@ Este método receberá o nome de empregador, senha para autenticação e thumbna
 {
   "employer_name": "S.H.I.E.L.D",
   "password": "12345",
-  "thumbnail": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80"
+  "thumbnail": "https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2031&q=80"
 }
 ```
 
@@ -58,7 +58,7 @@ Este método receberá o nome de empregador, senha para autenticação e thumbna
   "employer_name": "S.H.I.E.L.D",
   "employer_code": "9fe52edf-b36c-4c4b-8e0b-d00313e3eae7",
   "member_count": 0,
-  "thumbnail": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
+  "thumbnail": "https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2031&q=80",
   "register_date": "17/08/2020"
 }
 ```
@@ -80,7 +80,7 @@ Este método receberá um código de empregador e o validará retornando os segu
   "employer_name": "S.H.I.E.L.D",
   "employer_code": "9fe52edf-b36c-4c4b-8e0b-d00313e3eae7",
   "member_count": 0,
-  "thumbnail": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
+  "thumbnail": "https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2031&q=80",
   "register_date": "17/08/2020"
 }
 ```
@@ -178,7 +178,7 @@ Este método retorna o código do empregador, CPF do empregado e pin code de 5 d
 
 ```json
 {
-  "employee_cpf": "1123456789",
+  "employee_cpf": "123456789",
   "employer_code": "9fe52edf-b36c-4c4b-8e0b-d00313e3eae7",
   "pin_code": "64620"
 }
@@ -207,7 +207,7 @@ O código do empregador obtido anteriormente será passado na url junto com a re
     "mother": "Maria Stark",
     "hand": true
   },
-  "thumbnailHd": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
+  "thumbnailHd": "https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2031&q=80",
   "birthday": "29/05/1970"
 }
 ```
@@ -219,7 +219,7 @@ O código do empregador obtido anteriormente será passado na url junto com a re
 | member_name          | String     |
 | member_code          | int        |
 | member_personal_data | MemberData |
-| pin_code             | String     |
+| thumbnailHd          | String     |
 | birthday             | String     |
 
 - MemberData
@@ -254,7 +254,7 @@ Este método receberá o código do empregador e respectiva senha...
     "employer_code": "9fe52edf-b36c-4c4b-8e0b-d00313e3eae7",
     "employer_name": "S.H.I.E.L.D",
     "member_count": 1,
-    "thumbnail": "9https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2031&q=80",
     "register_date": "17/08/2020"
   },
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTc2OTQ3MzYsImV4cCI6MTU5Nzc4MTEzNiwic3ViIjoiOWZlNTJlZGYtYjM2Yy00YzRiLThlMGItZDAwMzEzZTNlYWU3In0.vS9IIb-HpPwj_fUNLmxCzP46gJ3g7Tj4EwFT-cv_swA"
